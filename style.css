@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0e0e0e;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background: #ff2e2e;
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+}
