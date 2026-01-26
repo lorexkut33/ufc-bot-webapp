@@ -18,6 +18,13 @@ const fighters = [{
         stance: "Ортодокс",
         special: ["Left Hook from Hell"],
         alterEgo: null
+    },
+    {
+        name: "Jon Jones",
+        image: "https://drop-assets.ea.com/images/wBsffp0vHzx3ClFijNnMl/506ecf07a08cfe04ba89c47b42fe594c/5star16x9-jonjones.jpg?im=AspectCrop=(1,1),xPosition=0.53125,yPosition=0.4287037037037037;Resize=(600)&q=85",
+        stance: "Разносторонняя",
+        special: ["Oblique Kick", "Spinning Elbow"],
+        alterEgo: "Bones"
     }
 ];
 
@@ -36,4 +43,5 @@ fighters.forEach(f => {
   `;
 
   container.appendChild(card);
+
 });
