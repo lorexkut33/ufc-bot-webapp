@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 15px;
+}
+
+.tab {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background: #1c1c1c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #ff2e2e;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filters select,
+.filters input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #ff2e2e;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.section {
+  background: #1c1c1c;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Страница бойца */
+
+.fighter-header {
+  position: sticky;
+  top: 0;
+  background: #0e0e0e;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+#fighter-photo {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: height 0.2s ease;
+}
+
+.stats-block {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+
+.stats-block h3 {
+  margin-top: 0;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.stat-row span:first-child {
+  min-width: 130px;
+}
+
+.bar {
+  flex: 1;
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar > div {
+  height: 100%;
+  background: #ff2e2e;
+}
+
+.back-btn,
+.fav-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fav-btn {
+  background: #ff2e2e;
+  color: #fff;
+}
+
+.back-btn {
+  background: #222;
+  color: #fff;
+}
+
+/* Админка */
+
+#admin-panel form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+#admin-panel input,
+#admin-panel textarea {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+#admin-panel button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background: #ff2e2e;
+  color: #fff;
+  cursor: pointer;
+}
+
+#admin-panel ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#admin-panel li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1c1c1c;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+#admin-panel li button {
+  background: #ff2e2e;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
