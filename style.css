@@ -10,6 +10,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .card {
     background: #1c1c1c;
     border-radius: 12px;
@@ -28,4 +32,5 @@ h1 {
     padding: 3px 8px;
     border-radius: 8px;
     font-size: 12px;
+
 }
