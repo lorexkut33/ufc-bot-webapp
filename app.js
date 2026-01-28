@@ -20,7 +20,7 @@ const fighters = [
   {
     id: "adesanya",
     name: "Israel Adesanya",
-    image: "https://i.imgur.com/XXXXX.jpg",
+    image: "https://drop-assets.ea.com/images/6zBYAINyekFqjXkdzG67F9/f16b61605967611f73c71f5220bf4fa9/5star16x9-israel.jpg?im=AspectCrop=(1,1),xPosition=0.5541666666666667,yPosition=0.43425925925925923;Resize=(2560)&q=80",
     stance: "Switch",
     weightClass: "Middleweight",
     stats: {
@@ -37,7 +37,7 @@ const fighters = [
   {
     id: "pereira",
     name: "Alex Pereira",
-    image: "https://i.imgur.com/YYYYY.jpg",
+    image: "https://drop-assets.ea.com/images/2wQf4iaRyQaB7LqgTmoSgE/7c3b2f604749f4e1c9d652bc70808200/alex-pereira-lhvw.jpg?im=AspectCrop=(1,1),xPosition=0.5120481927710844,yPosition=0.46785714285714286;Resize=(2560)&q=80",
     stance: "Orthodox",
     weightClass: "Light Heavyweight",
     stats: {
@@ -342,3 +342,4 @@ window.addEventListener("DOMContentLoaded", () => {
   setupTabs();
   applyFilters();
 });
+
