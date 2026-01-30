@@ -2,7 +2,7 @@
 const tg = window.Telegram.WebApp;
 tg.expand();
 
-const ADMIN_USERNAME = "5410467981";
+const ADMIN_USERNAME = "xkkdl";
 
 const user = tg.initDataUnsafe?.user;
 const isAdmin = user && user.username === ADMIN_USERNAME;
@@ -342,5 +342,6 @@ window.addEventListener("DOMContentLoaded", () => {
   setupTabs();
   applyFilters();
 });
+
 
 
